@@ -1,0 +1,314 @@
+body {
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+
+/* Navbar */
+.navbar-light .navbar-brand { 
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  background-color: #D5D4B4;
+}
+
+/* Home Page */
+.homePage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.homePage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://images.unsplash.com/photo-1611523193518-974ab034c0bb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(60%);
+}
+.hero-home {
+  position: relative;
+  margin: 0.625rem;
+
+}
+
+.homePage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.home-title {
+  font-family: 'Sigmar One', cursive;
+  text-shadow: 2px 2px 8px #636363;
+  margin-bottom: 0;
+
+}
+
+.home-subtitle {
+  font-family: 'Balsamiq Sans', cursive;
+  margin-top: 1rem;
+}
+
+.purposeText {
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 8px #E5E5E3;
+  font-weight: bolder;
+  text-align: center; 
+}
+
+.purposeCaption { 
+  font-family: 'Poppins', sans-serif;
+  text-align: center; 
+  /* font-size: 25px; */
+}
+
+.purpose i {
+  font-size: 45px;
+  padding: 15px 10px;
+  color: #655757;
+  width: 90px;
+  height: 90px;
+ 
+}
+
+.purpose span{
+  width: 200px;
+  height: 40px;
+  display: inline-block;
+  font-weight: bolder;
+}
+
+.icontext { 
+  text-align: center;
+
+}
+
+
+/* About */
+.rps-img{
+width: 100%;
+height: auto;
+border-radius: 20px;
+margin-bottom: 1rem;  
+}
+
+#rpsls-img{
+  max-width: 350px;
+}
+
+.aboutText {
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 8px #E5E5E3;
+  font-weight: bolder;
+}
+
+.aboutCaption {
+  font-family: 'Poppins', sans-serif;
+}
+.aboutp {
+  font-family:  'Poppins', sans-serif;
+}
+
+
+/* Game Page */
+.gamePage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.gamePage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(60%);
+}
+.hero-game {
+  position: relative;
+  margin: 0.625rem;
+
+}
+
+.gamePage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: #474747 3px 5px 2px;
+}
+
+.game-title {
+  font-family: 'Sigmar One', cursive;
+  margin-bottom: 0;
+
+}
+
+.game-subtitle {
+  font-family: 'Balsamiq Sans', cursive;
+  margin-top: 1rem;
+}
+
+#game { 
+  font-family:  'Poppins', sans-serif;
+  text-align: center;
+  margin-bottom: 70px;
+
+}
+
+.gameText {
+  text-shadow: 2px 2px 8px #E5E5E3;
+  font-weight: bolder;
+}
+
+
+.game-labels { 
+  text-align: center;
+}
+
+.move { 
+  text-align: center;
+  margin-bottom: 70px;
+
+}
+
+.lizardrow {  
+  margin-bottom: 70px;
+
+}
+
+.result {
+  text-shadow: 2px 2px 8px #E5E5E3;
+  font-weight: bolder;
+}
+
+
+/* Store Page */
+.storePage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.storePage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://images.unsplash.com/photo-1612703769284-0103b1e5ef70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(60%);
+}
+.hero-store {
+  position: relative;
+  margin: 0.625rem;
+
+}
+
+.storePage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: #474747 3px 5px 2px;
+}
+
+.store-title {
+  font-family: 'Sigmar One', cursive;
+  margin-bottom: 0;
+
+}
+
+.store-subtitle {
+  font-family: 'Balsamiq Sans', cursive;
+  margin-top: 1rem;
+}
+
+#store {
+  text-align: center;
+}
+
+.storeText {
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 8px #E5E5E3;
+  font-weight: bolder;
+}
+
+.storeCaption {
+  font-family: 'Poppins', sans-serif;
+}
+
+#apparel {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+/*Footer*/
+
+.footerbox { 
+  background-color: #EFE9E9;
+  height: 35vh;
+         
+         
+}
+
+.footerText {
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 8px #E5E5E3;
+  font-weight: bolder;
+}
+
+.footerCaption {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.copyRight {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10px;
+}
+
+/* text-uppercase mb-0" */
+
+
+
+.fi-xnsuxl-instagram, .fi-xwluxl-close-envelope-wide, .fi-snsrxl-phone-solid, .fi-cnsuxl-globe-solid, .fi-xnsuxl-facebook, .fi-cnsuxl-twitter { 
+  color: white;
+}
+
+

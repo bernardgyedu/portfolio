@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rock Paper Scissors</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--- Friconix --->
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Sam and Karen</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link active" href="about.html">About</a>
+        <a class="nav-link" href="game.html">Game</a>
+        <a class="nav-link" href="store.html" tabindex="-1" aria-disabled="true">Store</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+    <!--header-->
+
+<Header>
+<header class="d-flex-align-items-center">
+  <div class="container">
+    <h1 class="head"></h1>
+    <img class= "rps-img" src="https://images-na.ssl-images-amazon.com/images/I/61QkvmvEdVL.png" alt="">
+  </div>
+
+</header>
+
+
+    <!--history-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h2 class="aboutText">History</h2>
+      <p class="aboutCaption">The game of Rock Paper Scissors dates back to the Chinese Han Dynasty. "Sansukumi-ken", in Japanese are three way deadlocks by fist where A beats out B, B beats out C, and C beats out A. The game subsequently became more popular as a result of cultural assimilation between China and Japan. The earliest Japanese "Sansukumi-ken" game was called "mushi-ken", which consisted of frog (thumb), slug (pinky finger), and snake (index finger). The frog is beaten by the slug, which is beaten by the snake, which is beaten by the frog. 
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img class="rps-img" id="rpsls-img" src="https://img.carters.com.au/9d8a64a9a244bcf6a7257406653803fa.jpg" alt="">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <img class="rps-img" id="rpsls-img" src="https://e.45mix.net/wp-content/uploads/2015/04/rock-scissors-paper01.png" alt="">
+    </div>
+    <div class="col-md-8">
+      <h2 class="aboutText">Spread of Rock Paper Scissors</h2>
+      <p class="aboutCaption">The origin of the game that we play today is credited to Japan during the Edo and Meiji period. By the early 20th century, the game had spread across Asia and western countries. In Britian in 1924, Rock Paper Scissors was described as a hand game, called "zhot", the Rock Paper Scissors game, that the author explained in the article. In 1927, a children's magazine, La Vie au patronage, described the game in detail, basing its French name "Chi-fou-mi" off of the old Japanese words of "one, two, three". In the United States, there was an article in The New York Times in 1932 describing the rules of the game. Shortly after, in 1933, Compton's Pictured Encyclopedia described the game as a way for children to settle disputes. It has then grew in population through generations to the game we know today.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8">
+      <h2 class="aboutText">Lizard Spock Expansion</h2>
+      <p class="aboutp">The traditional game with the extension of the lizard and spock is introduced in The Big Bang Theory on "The Lizard-Spock Expansion". It was initially introduced to settle a dispute between Sheldon and Raj over what to watch on television. Created by Sam Kass and Karen Bryla.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img class="rps-img" id="rpsls-img" src="https://images.theconversation.com/files/274985/original/file-20190516-69189-xi009a.jpg?ixlib=rb-1.1.0&rect=0%2C75%2C840%2C767&q=45&auto=format&w=496&fit=clip" alt="">
+    </div>
+  </div>
+</div>
+
+
+    <!--rules-->
+
+<div class="container">
+  <div class="row ">
+    <div class="col-md-4">
+      <img class="rps-img ls-img" id="rpsls-img" src="https://honestaboutmyfaith.files.wordpress.com/2015/03/rock-paper-scissors-lizard-spock.jpg" alt="">
+    </div>
+    <div class="col-md-4">
+      <h2 class="aboutText">Learn to Play Rock Paper Scissors Lizard Spock!</h2>
+      <strong class= "aboutCaption" >Required</strong>
+      <ul class= "aboutCaption">
+        <li class= "aboutCaption">
+          Two Players
+        </li>
+      </ul>
+      <ol class= "aboutCaption">
+        <li>
+          On the count of 3, each player "throw" out one of the hand signs displayed on the right
+        </li>
+      </ol>
+      <strong class= "aboutText">Remember</strong>
+      <ul class= "aboutCaption">
+        <li>
+          "Throw" rock by making a fist
+        </li>
+        <li >
+          "Throw" scissors by extending and separating your index and middle finger (as shown in the diagram)
+        </li>
+        <li>
+          "Throw" paper by holding your hand out flat
+        </li>
+        <li>
+          "Throw" lizard by drawing your index, middle, ring, and pinky finger to your thumb (as shown in the diagram)
+        </li>
+        <li>
+          "Throw" spock by separating your middle and ring finger (as shown in the diagram)
+        </li>
+      </ul>
+      <strong class="aboutText">Conditions</strong>
+      <ul class= "aboutCaption">
+        <li>
+          Rock crushes lizard, scissors, covered by paper, vaporized by spock.
+        </li>
+        <li>
+          Paper coveres rock, disproves spock, cut by scissors, eaten by lizard.
+        </li>
+        <li>
+          Scissors cuts paper, decapitates lizard, crushed by rock, smashed by spock.
+        </li>
+        <li>
+          Lizard eats paper, poisons spock, crushed by rock, decapitated by scissors.
+        </li>
+        <li>
+          Spock smashes scissors, vaporizes rock, poisoned by lizard, disproved by paper.
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <img class="rps-img" id="rpsls-img" src="https://i0.wp.com/everydaylean.info/wp-content/uploads/2014/12/500px-Pierre_ciseaux_feuille_l%C3%A9zard_spock_aligned.svg_.png?fit=500%2C500" alt="">
+    </div>
+  </div>
+</div>
+
+
+    <!--biography-->
+
+<div class="container">
+  <div class="row">
+    <h2 class="aboutText">About Sam Kass, Karen Bryla</h2>
+    <p class="aboutCaption">Sam Kass is an internet blogger who created the game <i>rock paper scissors lizard spock</i>. While playing the traditional game, Kass noticed that 80% of rock paper scissors games end in a draw, and she sought to find a solution. The adapted version of the game has a lower probrability of resulting in a draw.</p>
+    <p class="aboutCaption">Karen Bryla is an technical writer, developer, and usability analytic. Her 15 years of experience is demonstrated with her efforts in sharing her innovative ideas and feedback from her peers.</p>
+  </div>
+</div>
+<br><br>
+
+<!-- Footer -->
+<div class="row footerbox">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="footerText">Our Purpose</h5>
+        <p class="footerCaption">We hope to inform others about the origins of rock paper scissors and our verison of the game. We enable users to be able to try the game out with an AI. If there is any questions or problems, contact us.</p>
+      </div>
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="footerText">Contact Us</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li class="footerCaption">
+            66 Hall Street Whitestone, NY 11357
+          </li>
+          <li class="footerCaption">
+            samkaren@lizardspock.com
+          </li>
+          <li class="footerCaption">
+            718-345-2278
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="footerText">About Us</h5>
+
+        <ul class="list-unstyled">
+          <li class="footerCaption">
+           Privacy 
+          </li>
+          <li class="footerCaption">
+            Terms & Conditions
+          </li>
+          <li class="footerCaption">
+            About Us
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright: Sam and Karen</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="row footerbox">
+
+      <div class="col-md-4">
+      </div>
+
+      <div class="col-md-2">
+    
+    
+                 <h5 style="color: white; margin-top: 20px;">Contact Us</h5>
+                    
+                   <i class="fi-xwluxl-close-envelope-wide"></i>
+                    
+                      <p style="color: white; margin-left: 8px; display: inline-block; margin-top: 30px;">Email</p>
+                    
+                 <br><i class="fi-snsrxl-phone-solid"></i>
+                    
+                  <p style="color: white; margin-left: 8px; display: inline-block">Phone Number</p>
+                    
+               <br> <i class="fi-cnsuxl-globe-solid"></i></a>
+                <p style="color: white; margin-left: 8px; display: inline-block;">Website</p> 
+                    
+                    </div>
+    
+    
+               <div class="col-md-2">
+    
+    
+                 <h5 style="color: white; margin-top: 20px;">Social Media</h5>
+                   
+                   <br><i class="fi-xnsuxl-instagram"></i>
+
+
+                   <i class="fi-xnsuxl-facebook"></i>
+                   
+                   <i class="fi-cnsuxl-twitter"></i></i>
+    
+                  </div>
+
+                  <div class="col-md-4">
+                    </div>
+    
+                  
+
+     </div> -->
+
+
+
+
+
+    <script src="script.js"></script>
+ </body>
+   <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <!-- Local JS -->
+    <script src="script.js"></script>
+</html>

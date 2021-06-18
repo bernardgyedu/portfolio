@@ -1,0 +1,59 @@
+/* cst page */
+.header-img{
+  width: 100%;
+  border-radius: 10px;
+}
+.h1cst{
+  color: green !important;
+}
+.cstrow1{
+  justify-content: center;
+}
+/* Header */
+.homePage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.homePage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://images.unsplash.com/photo-1508020963102-c6c723be5764?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(40%);
+}
+.hero-home {
+  position: relative;
+  margin: 0.625rem;
+
+}
+
+.homePage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.home-title {
+  font-family: 'Inter', sans-serif;
+  text-shadow: 2px 2px 8px #636363;
+  font-weight: bolder;
+  margin-bottom: 0;
+
+}
+
+.home-subtitle {
+  font-family: 'Inter', sans-serif;
+  margin-top: 1rem;
+}

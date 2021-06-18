@@ -1,0 +1,124 @@
+/*Home Page*/ 
+/* Header */
+.homePage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.homePage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(40%);
+}
+.hero-home {
+  position: relative;
+  margin: 0.625rem;
+
+}
+
+.homePage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.home-title {
+  font-family: 'Inter', sans-serif;
+  text-shadow: 2px 2px 8px #636363;
+  font-weight: bolder;
+  margin-bottom: 0;
+
+}
+
+.home-subtitle {
+  font-family: 'Inter', sans-serif;
+  margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+header {
+     text-align: center;
+     font-size: 25px;
+     padding:20px;
+}
+
+.pokemon {
+     background-color: rgb(170, 218, 255);
+     text-align: center;
+     font-size: 20px;
+     color: #495159;
+     font-weight: bold;
+     
+     padding: 20px 5px;
+     border: 10px solid white;
+}
+
+/* store page */
+.header-img{
+  width: 100%;
+  border-radius: 10px;
+}
+.h1cst{
+  color: green !important;
+}
+.cstrow1{
+  justify-content: center;
+}
+#box{
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px 25px;
+  height: 400px; 
+  box-sizing: border-box;
+  margin: 30px;
+  position: relative;
+  border: 3px solid transparent;
+  text-align: center;
+  color: black;
+}
+.item-text{
+  text-align: left !important;
+  justify-content: left !important;
+}
+
+/* About .homePage */
+.headerpic { width: 100%;
+             height: 20vh;
+             background-color: red;
+
+}
+
+.middlebox { width: 100%;
+             height: 5vh;
+             background-color: black;
+}
+
+.endbox {  width: 100%;
+           height: 20vh;
+           background-color: green;
+
+  
+}

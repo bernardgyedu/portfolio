@@ -1,0 +1,94 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(to right, #8e2de2, #4a00e0)!important;
+    color: white !important;
+    font-family: 'Lato', sans-serif !important;
+
+}
+.brand-logo{
+    width: 50px;
+}
+.floating-link{
+    position: fixed !important;
+    right: 3%;
+    top: 20%;
+    padding: 0px !important;
+}
+.link-float{
+    list-style-type: none;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.dropdown-menu-center{
+    display: inline-block;
+    text-align: center;
+}
+.intro{
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+}
+.image{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3%;
+    width: 100%;
+}
+.picture{
+    height: 300px;
+    border-radius: 10%;
+}
+.reachout{
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 3%;
+}
+.media-icons{
+    font-size: 30px;
+    margin: 0px 10px;
+    transition: all ease 0.2s;
+}
+a{
+    text-decoration: none;
+    color: inherit !important;
+}
+a:active{
+    text-decoration: none;
+}
+.icon-row{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.logo-row{
+    padding: 20px 20px;
+}
+.html-logo, .css-logo, .js-logo{
+    font-size: 40px;
+    margin-right: 10px;
+}
+#collab-box{
+    padding: 10px;
+}
+.title{
+    display: flex;
+    height: 70px;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    
+}
+.work-row{
+    margin-right: 30px !important;
+}
