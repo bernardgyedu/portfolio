@@ -12,7 +12,7 @@ body{
 }
 .floating-link{
     position: fixed !important;
-    right: 3%;
+    right: 2%;
     top: 20%;
     padding: 0px !important;
 }
@@ -39,8 +39,23 @@ body{
     align-items: center;
     text-align: center;
     padding: 3%;
-    width: 100%;
 }
+@media screen and (max-width: 1200px) {
+    #image-row{
+        margin: 30px;
+        } 
+}
+@media screen and (max-width: 1100px) {
+    .work-row{
+        margin-right: 10px !important;
+    }
+}
+@media screen and (max-width: 576px){
+    .work-row{
+        margin-right: 25px !important;
+    }
+}
+
 .picture{
     height: 300px;
     border-radius: 10%;
@@ -88,7 +103,4 @@ a:active{
     align-items: center;
     text-align: left;
     
-}
-.work-row{
-    margin-right: 30px !important;
 }
