@@ -22,6 +22,9 @@ body{
 .nav-item{
     margin-left: 20px;
 }
+button:focus{
+    outline: none !important;
+}
 .dropdown-menu-center{
     display: inline-block;
     text-align: center;
