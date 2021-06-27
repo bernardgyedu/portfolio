@@ -105,5 +105,8 @@ a:active{
     justify-content: left;
     align-items: center;
     text-align: left;
-    
+}
+.about-me-img{
+    height: 300px;
+    border-radius: 50%;
 }
