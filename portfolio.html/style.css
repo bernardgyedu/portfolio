@@ -25,6 +25,9 @@ p{
 .nav-item{
     margin-left: 20px;
 }
+.navbar-toggler{
+    border-color: transparent !important;
+}
 button:focus{
     outline: none !important;
 }
