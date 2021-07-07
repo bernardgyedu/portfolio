@@ -12,15 +12,7 @@ body {
 
 }
 #box{
-	display: grid;
-	border-radius: 10px;
-	width:300px;
-	padding: 20px 25px;
-	height: 600px;
-	margin: 30px;
-    border: 3px solid transparent;
-    transition: transform .1s;
-    background-color: transparent;
+	
 }
 #image{
     height: 200px;
