@@ -1,0 +1,38 @@
+.loading-screen{
+    text-align: center;
+    padding: 80px;
+    width: 100vw;
+    height: 100vh;
+}
+@media screen and (max-width: 576px) {
+
+    .sk-chase{
+        margin-top: 50%;
+       
+    } 
+    
+}
+@media screen and (min-width: 576px) {
+    
+    .sk-chase{
+        margin-top: 30%;
+       
+    }
+
+}
+@media screen and (min-width: 900px) {
+    
+    .sk-chase{
+        margin-top: 20%;
+       
+    }  
+
+}
+@media screen and (min-width: 1150px) {
+    
+    .sk-chase{
+        margin-top: 12%;
+       
+    }
+
+}
