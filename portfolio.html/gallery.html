@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="spinkit.css">
+    <link rel="stylesheet" href="pageloader.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -15,81 +17,122 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel=“stylesheet” href=“https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css”></i>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="image0.png">
-    <title>Bernard Gyedu</title>
+    <title>Gallery</title>
 </head>
 <body>
     
 <!---->
 
+<!--PageLoader start-->
+
+<div class="loading-screen">
+    <h1>Welcome! Please wait...</h1>
+
+
+    <div class="sk-chase sk-center">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
+</div>
+
+<!--PageLoader end-->
+
 <!--nav-->
 
 <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: transparent;">
     <a class="navbar-brand" href="#">
-        <img class="brand-logo" src="image0.png" alt="">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="48" height="48"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M53.75,143.33333v0c-5.934,0 -10.75,-4.816 -10.75,-10.75v-100.33333c0,-5.934 4.816,-10.75 10.75,-10.75v0c5.934,0 10.75,4.816 10.75,10.75v100.33333c0,5.934 -4.816,10.75 -10.75,10.75z"></path><path d="M114.466,78.85483c4.558,-6.01283 7.36733,-13.416 7.36733,-21.5215c0,-19.7585 -16.07483,-35.83333 -35.83333,-35.83333h-32.25c-5.934,0 -10.75,4.80883 -10.75,10.75v50.16667v50.16667c0,5.94117 4.816,10.75 10.75,10.75h39.41667c19.7585,0 35.83333,-16.07483 35.83333,-35.83333c0,-11.75333 -5.762,-22.10917 -14.534,-28.64517zM64.5,43h21.5c7.90483,0 14.33333,6.4285 14.33333,14.33333c0,7.90483 -6.4285,14.33333 -14.33333,14.33333h-21.5zM93.16667,121.83333h-28.66667v-28.66667h21.5h7.16667c7.90483,0 14.33333,6.4285 14.33333,14.33333c0,7.90483 -6.4285,14.33333 -14.33333,14.33333z" opacity="0.35"></path></g></g></svg>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="fas fa-bars"></span>
     </button>
     <div class="collapse navbar-collapse dropdown-menu-center" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="index.html#top">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="24" height="24"
+            viewBox="0 0 172 172"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ecf0f1"><path d="M86,15.0472l-78.83333,70.9528h21.5v64.5h50.16667v-43h14.33333v43h50.16667v-64.5h21.5zM86,34.33561l43,38.7028v5.79492v57.33333h-21.5v-43h-43v43h-21.5v-63.12826z"></path></g></g></svg><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#portfolio">View Portfolio</a>
+          <a class="nav-link" href="#portfolio"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="24" height="24"
+            viewBox="0 0 172 172"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M28.66667,28.66667c-7.88333,0 -14.33333,6.45 -14.33333,14.33333v86c0,7.88333 6.45,14.33333 14.33333,14.33333h114.66667c7.88333,0 14.33333,-6.45 14.33333,-14.33333v-71.66667c0,-7.88333 -6.45,-14.33333 -14.33333,-14.33333h-57.33333l-14.33333,-14.33333zM28.66667,57.33333h114.66667v71.66667h-114.66667zM86,64.5c-7.91608,0 -14.33333,6.41725 -14.33333,14.33333c0,7.91608 6.41725,14.33333 14.33333,14.33333c7.91608,0 14.33333,-6.41725 14.33333,-14.33333c0,-7.91608 -6.41725,-14.33333 -14.33333,-14.33333zM86,100.33333c-9.5675,0 -28.66667,4.80167 -28.66667,14.33333v7.16667h57.33333v-7.16667c0,-9.53167 -19.09917,-14.33333 -28.66667,-14.33333z"></path></g></g></svg></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#about-me">About Me</a>
+          <a class="nav-link" href="#about-me"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="24" height="24"
+            viewBox="0 0 172 172"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M86,14.33333c-31.57947,0 -57.33333,25.75386 -57.33333,57.33333v7.16667v6.4668c-4.11158,3.92065 -7.16667,8.96408 -7.16667,15.0332c0,8.90077 6.14578,15.50081 13.92741,18.72851c9.32408,22.28699 27.99929,38.60482 50.57259,38.60482c22.57331,0 41.24852,-16.31783 50.57259,-38.60482c7.78162,-3.2277 13.92741,-9.82774 13.92741,-18.72851c0,-6.06912 -3.05509,-11.11255 -7.16667,-15.0332v-6.4668v-7.16667c0,-31.57947 -25.75386,-57.33333 -57.33333,-57.33333zM86,28.66667c19.03171,0 35.04946,12.23621 40.74642,29.29655c-1.58636,-0.37879 -3.21814,-0.62988 -4.91309,-0.62988h-71.66667c-1.69495,0 -3.32673,0.25109 -4.91309,0.62988c5.69696,-17.06034 21.71471,-29.29655 40.74642,-29.29655zM50.16667,71.66667h71.66667c4.04938,0 7.16667,3.11728 7.16667,7.16667v7.16667v6.10286l3.59733,2.05762c2.17607,1.24916 3.56934,3.41374 3.56934,6.17285c0,3.6917 -2.64329,6.5411 -6.17285,7.02669l-4.19922,0.58789l-1.52571,3.94726c-7.38741,19.25126 -22.08334,31.43815 -38.26888,31.43815c-16.18555,0 -30.88147,-12.1869 -38.26888,-31.43815l-1.52572,-3.94726l-4.19922,-0.58789c-3.52956,-0.48559 -6.17285,-3.33499 -6.17285,-7.02669c0,-2.75911 1.39326,-4.92369 3.56934,-6.17285l3.59733,-2.05762v-6.10286v-7.16667c0,-4.04938 3.11728,-7.16667 7.16667,-7.16667z"></path></g></g></svg></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="gallery.html"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="24" height="24"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M21.5,21.5c-7.83362,0 -14.33333,6.49972 -14.33333,14.33333v71.66667c0,7.83362 6.49972,14.33333 14.33333,14.33333h93.16667c7.83362,0 14.33333,-6.49972 14.33333,-14.33333v-71.66667c0,-7.83362 -6.49972,-14.33333 -14.33333,-14.33333zM21.5,35.83333h93.16667v40.03256l-17.93066,-17.94467l-18.93848,19.09245l-24.35547,-26.30111l-31.94206,32.208zM78.83333,43c-3.95804,0 -7.16667,3.20863 -7.16667,7.16667c0,3.95804 3.20863,7.16667 7.16667,7.16667c3.95804,0 7.16667,-3.20863 7.16667,-7.16667c0,-3.95804 -3.20863,-7.16667 -7.16667,-7.16667zM143.33333,50.16667v86h-107.5v14.33333h107.5c7.83362,0 14.33333,-6.49972 14.33333,-14.33333v-86zM53.09212,71.42871l14.59928,15.77507l-3.10742,3.13542l10.17611,10.09212l22.0039,-22.19987l17.90267,17.90266v11.36589h-93.16667v-4.19922z"></path></g></g></svg></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/bernard-gyedu-474773200/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="24" height="24"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M51.6,143.33333h-28.66667v-86h28.66667zM37.2724,45.86667c-7.9292,0 -14.33907,-6.42707 -14.33907,-14.33907c0,-7.912 6.42133,-14.3276 14.33907,-14.3276c7.90053,0 14.3276,6.42707 14.3276,14.3276c0,7.912 -6.42707,14.33907 -14.3276,14.33907zM154.8,143.33333h-27.56013v-41.85333c0,-9.98173 -0.1892,-22.81867 -14.3276,-22.81867c-14.35053,0 -16.55787,10.8704 -16.55787,22.09627v42.57573h-27.5544v-86.06307h26.4536v11.75907h0.37267c3.6808,-6.76533 12.6764,-13.8976 26.0924,-13.8976c27.92133,0 33.08133,17.82493 33.08133,40.99907z"></path></g></g></svg></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/bernardgyedu/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="24" height="24"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M57.33333,21.5c-19.7585,0 -35.83333,16.07483 -35.83333,35.83333v57.33333c0,19.7585 16.07483,35.83333 35.83333,35.83333h57.33333c19.7585,0 35.83333,-16.07483 35.83333,-35.83333v-57.33333c0,-19.7585 -16.07483,-35.83333 -35.83333,-35.83333zM57.33333,35.83333h57.33333c11.85367,0 21.5,9.64633 21.5,21.5v57.33333c0,11.85367 -9.64633,21.5 -21.5,21.5h-57.33333c-11.85367,0 -21.5,-9.64633 -21.5,-21.5v-57.33333c0,-11.85367 9.64633,-21.5 21.5,-21.5zM121.83333,43c-3.95804,0 -7.16667,3.20863 -7.16667,7.16667c0,3.95804 3.20863,7.16667 7.16667,7.16667c3.95804,0 7.16667,-3.20863 7.16667,-7.16667c0,-3.95804 -3.20863,-7.16667 -7.16667,-7.16667zM86,50.16667c-19.7585,0 -35.83333,16.07483 -35.83333,35.83333c0,19.7585 16.07483,35.83333 35.83333,35.83333c19.7585,0 35.83333,-16.07483 35.83333,-35.83333c0,-19.7585 -16.07483,-35.83333 -35.83333,-35.83333zM86,64.5c11.85367,0 21.5,9.64633 21.5,21.5c0,11.85367 -9.64633,21.5 -21.5,21.5c-11.85367,0 -21.5,-9.64633 -21.5,-21.5c0,-11.85367 9.64633,-21.5 21.5,-21.5z"></path></g></g></svg></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://github.com/bernardgyedu" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="24" height="24"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M78.11667,15.05c-32.96667,3.58333 -59.48333,30.1 -63.06667,62.35c-3.58333,33.68333 15.76667,63.78333 45.15,75.25c2.15,0.71667 4.3,-0.71667 4.3,-3.58333v-11.46667c0,0 -2.86667,0.71667 -6.45,0.71667c-10.03333,0 -14.33333,-8.6 -15.05,-13.61667c-0.71667,-2.86667 -2.15,-5.01667 -4.3,-7.16667c-2.15,-0.71667 -2.86667,-0.71667 -2.86667,-1.43333c0,-1.43333 2.15,-1.43333 2.86667,-1.43333c4.3,0 7.88333,5.01667 9.31667,7.16667c3.58333,5.73333 7.88333,7.16667 10.03333,7.16667c2.86667,0 5.01667,-0.71667 6.45,-1.43333c0.71667,-5.01667 2.86667,-10.03333 7.16667,-12.9c-16.48333,-3.58333 -28.66667,-12.9 -28.66667,-28.66667c0,-7.88333 3.58333,-15.76667 8.6,-21.5c-0.71667,-1.43333 -1.43333,-5.01667 -1.43333,-10.03333c0,-2.86667 0,-7.16667 2.15,-11.46667c0,0 10.03333,0 20.06667,9.31667c3.58333,-1.43333 8.6,-2.15 13.61667,-2.15c5.01667,0 10.03333,0.71667 14.33333,2.15c9.31667,-9.31667 20.06667,-9.31667 20.06667,-9.31667c1.43333,4.3 1.43333,8.6 1.43333,11.46667c0,5.73333 -0.71667,8.6 -1.43333,10.03333c5.01667,5.73333 8.6,12.9 8.6,21.5c0,15.76667 -12.18333,25.08333 -28.66667,28.66667c4.3,3.58333 7.16667,10.03333 7.16667,16.48333v18.63333c0,2.15 2.15,4.3 5.01667,3.58333c26.51667,-10.75 45.15,-36.55 45.15,-66.65c0,-43 -36.55,-76.68333 -79.55,-71.66667z"></path></g></g></svg></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="mailto: bernardgyedu@gmail.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="24" height="24"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M28.66667,28.66667c-7.90483,0 -14.33333,6.4285 -14.33333,14.33333v86c0,7.90483 6.4285,14.33333 14.33333,14.33333h114.66667c7.90483,0 14.33333,-6.4285 14.33333,-14.33333v-86c0,-7.90483 -6.4285,-14.33333 -14.33333,-14.33333zM28.66667,43h114.66667v0.04199l-57.33333,35.79134l-57.33333,-35.80534zM28.66667,57.36133l57.33333,35.80534l57.33333,-35.79134l0.014,71.62467h-114.68066z"></path></g></g></svg></a>
         </li>
       </ul>
     </div>
 </nav>
 
-<div class="floating-link">
-    <ul class="link-float">
-       <li style="font-size: 30px;">
-           <a href="https://www.linkedin.com/in/bernard-gyedu-474773200/">
-               <i style="color: #fcd206;" class="fab fa-linkedin-in"></i>
-           </a>
-       </li>
-        <li style="font-size: 30px;">
-            <a href="https://www.instagram.com/bernardgyedu/">
-                <i style="color: #f18121" class="fab fa-instagram"></i>
-            </a>
-        </li>
-        <li style="font-size: 30px;">
-            <a href="https://github.com/bernardgyedu">
-                <i style="color: #d5df37;" class="fab fa-github"></i>
-            </a>
-        </li>
-        <li style="font-size: 30px;">
-            <a href="#">
-                <i style="color: #76c065;" class="fab fa-slack"></i>
-            </a>
-        </li>
-        <li style="font-size: 30px;">
-            <a href="mailto: bernardgyedu@gmail.com">
-                <i style="color: #54afbc;" class="far fa-envelope"></i>
-            </a>
-        </li>
-    </ul>
-</div>
+<!--nav end-->
+
+<h1 class="ml12">view my gallery</h1>
+
 <!--footer-->
 
+<hr>
+        <div class="text-center">
+            <i class="fa fa-copyright icon-bottom" aria-hidden="true"></i>
+            <span class="ecommerce-footer-section-copyright">
+                2020 by Bernard Gyedu.
+            </span>
+        </div>
 
 
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-AOS.init();
-</script>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+        </script>
 </body>
 </html>

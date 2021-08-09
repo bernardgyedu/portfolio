@@ -103,6 +103,21 @@ p{
     line-height: 1em;
   }
 
+  /* text 6 */
+
+  .ml12 {
+    font-weight: 200;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+  
+  .ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+
 /* end intro effect */
 
 .nav-item{
